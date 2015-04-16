@@ -1,0 +1,264 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, blockquote, th, td, table, img {
+	margin: 0;
+	padding: 0;
+}
+li,ul,a {
+    text-decoration:none;
+    list-style:none;
+}
+#_k_wrap {
+	width: 1000px;
+	margin: auto;
+}
+._k_wrap {
+	width: 1000px;
+	margin: auto;
+}
+#_k_bannerimg {
+	background: url(../images/head.png) no-repeat;
+	height: 50px;
+	width: 100%;
+}
+#_k_login {
+	height: 30px;
+	width: 1000px;
+	line-height: 40px;
+	float: right;
+	text-align: right;
+	margin-top: 6px;
+}
+#_k_topline {
+	height: 15px;
+	background: url(../images/line.jpg) no-repeat bottom;
+}
+#_k_indexLeftTop {
+	width: 640px;
+	height: 340px;
+	float: left;
+}
+#_k_indexLeftTop li {
+	line-height: 40px;
+	border-bottom: #CCC 1px dashed;
+}
+#_k_indexLeftTop dd, #_k_indexLeftMiddle dd {
+	line-height: 40px;
+	border-bottom: #CCC 1px dashed;
+	margin-right: 5px;
+}
+#_k_indexLeftTop dt, #_k_indexLeftMiddle dt {
+	line-height: 40px;
+	border-bottom: #CCC 1px dashed;
+	margin-left: 5px;
+}
+#_k_indexLeftTop span, #_k_indexLeftMiddle span, #_k_indexRightMiddle span, #_k_indexRightTop span, #_k_indexLeftButtom span, #_k_index_login span {
+	line-height: 44px;
+}
+#_k_indexRightTop {
+	width: 340px;
+	height: 340px;
+	float: left;
+	margin-left: 20px;
+}
+#_k_indexRightTop ul {
+	padding-left: 15px;
+	line-height: 50px;
+	padding-top: 15px;
+}
+
+#_k_indexBorad {
+	height: 285px;
+}
+#_k_indexLeftMiddle {
+	width: 640px;
+	height: 340px;
+	float: left;
+	margin-top: 20px;
+}
+#_k_indexLeftMiddle li {
+	line-height: 40px;
+	border-bottom: #CCC 1px dashed;
+	padding-left: 15px;
+}
+#_k_indexRightMiddle {
+	width: 340px;
+	height: 340px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#_k_indexRightMiddle ul {
+	padding-left: 15px;
+	line-height: 50px;
+	padding-top: 15px;
+	padding-right: 15px;
+}
+#_k_indexRightMiddle ul li {
+	height: 54px;
+}
+#_k_indexLeftButtom {
+	width: 100%;
+	min-height: 200px;
+	margin-top: 20px;
+	float: left;
+}
+#_k_index_login {
+	width: 100%;
+	min-height: 100px;
+	margin-top: 20px;
+	float: left;
+}
+#_k_li .span4 {
+	margin-left: 20px;
+}
+#footer {
+	height: 160px;
+    text-align:center;
+    margin:auto;
+    font-size:12px;
+}
+body {
+	background: url(../images/noise.png) repeat;
+}
+#_k_item_a {
+	float: right;
+	line-height: 44px;
+	padding-right: 25px;
+}
+.item-hd {
+	margin-top: 10px;
+	background-color: #F7F7F7;
+	border-width: 1px 1px 2px;
+	border-style: solid;
+	border-color: #ECECEC #ECECEC #4c9ed9;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	border-radius: 4px 4px 0px 0px;
+	height: 44px;
+}
+.item-nav {
+	display: inline-block;
+	height: 45px;
+	color: #FFF;
+	font-size: 16px;
+	background-color: #4c9ed9;
+	border-radius: 4px 0px 0px;
+	padding: 0px 25px 0px 15px;
+}
+#_k_qfei {
+	width: 900px;
+	float: left;
+	height: 100px;
+	padding: 25px 0px 0px 35px;
+}
+.vercode {
+	float: right;
+	margin: -50px 0px 0px -5px;
+}
+.loginTitle {
+	text-align: center;
+	color: #0B72BC;
+}
+.loginTable {
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	border: #832E30 1px dashed;
+}
+.loginTable tr td {
+	border: #832E30 1px dashed;
+}
+.loginTable tr td img {
+	float: left;
+	margin-top: -10px;
+}
+.k_loginBord {
+	width: 460px;
+	height: 260px;
+	border-radius: 5px 5px 5px 5px;
+	border: rgba(221,221,221,1.00) 1px solid;
+	background: rgba(247,247,247,1.00);
+	margin:25px 5px 25px 25px;
+	float:left;
+}
+.k_loginTitle {
+	text-align: center;
+	color: #0B72BC;
+	width: 460px;
+	font-size: 18px;
+	margin-bottom:5px;
+}
+.k_loginTitle ,.k_loginLeft2,.k_loginRight2,.k_loginMiddele3,.k_loginRight3,.k_loginSubmit{height:30px; line-height:30px;float:left; margin-top:15px;}
+.k_loginLeft2{ text-align:right; width:120px; }
+.k_loginRight2{ width:340px;}
+.k_loginMiddele3{width:222px;}
+.k_loginRight3{ width:100px;}
+.k_loginSubmit{ width:300px; padding-left:80px;}
+
+.k_listMenu{ width:13%; height:100%; float:left;}
+.k_listArea{ width:730px; float:left; min-height:900px; margin-left:270px;}
+.k_listPages { width:100%; float:left;}
+.k_pwdArea {width:540px; float:left; min-height:270px; margin-left:270px; padding:100px 0px 0px 200px; background:#F7F7F7; border-radius:15px;
+}
+.k_regButton { height:35px; margin-top: 5px; border-top:1px solid #CCC;  float:left; width:100%; margin-bottom:20px;
+}
+._k_Login{ width:130px; height:140px; float:left;padding:15px; margin-left:5px; display:block;}
+._k_loginDown{ width:335px; height:100px; float:left;}
+._k_loginDown ul li{ list-style:none; height:30px; line-height:30px; border-bottom:#CCC 1px dashed; float:left; display:block; width:260px;}
+._k_Login span{ width:130px; display:block; float:left; text-align:center;}
+
+.k_userArea {width:740px; float:left; min-height:400px; margin-left:270px;background:#F7F7F7; border-radius:15px;
+}
+
+#panel-123310 {
+    padding:15px 30px 30px 120px;
+}
+#regFrom {
+    margin:25px;
+}
+
+
+.k_sidebar {
+    float: left;
+    width: 13%;
+    padding: 0px 10px;
+    margin-left: -1px;
+    overflow: hidden;
+}
+.k_info {
+    width:100%;
+    height:60px;
+    background:#ECECEC;
+    position:fixed;
+    padding:4px 0px;
+}
+.k_quickmenu {
+    height: 25px;
+    top: 33px;
+    right: 22px;
+    position:absolute;
+    list-style:none;
+}
+    .k_quickmenu ul li {
+        float:left;
+        margin:0px 10px;
+    }
+     .k_quickmenu ul li a,.k_quickmenu ul li span {
+         padding:0px 10px;
+    }
+        .k_quickmenu ul li span { color:#ff6a00;
+        }
+.k_homeBord {
+    min-height:600px;
+    margin-top:130px;
+    background-image:url("../images/hbg.jpg");
+    width:100%;
+}
+.k_blankTop {
+    width:1000%;
+    height:120px;
+}
